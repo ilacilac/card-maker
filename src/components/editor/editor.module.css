@@ -1,0 +1,10 @@
+.editor {
+  flex-basis: 50%;
+  background: #ffcde6;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+  color: #333333;
+}
