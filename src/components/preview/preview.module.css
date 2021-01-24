@@ -1,10 +1,17 @@
 .preview {
   flex-basis: 50%;
-  background: #f4ffc3;
 }
 .title {
   width: 100%;
   text-align: center;
   margin-bottom: 1em;
   color: #333333;
+}
+.cards {
+  width: 100%;
+  height: 100%;
+  padding: 0.5em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
