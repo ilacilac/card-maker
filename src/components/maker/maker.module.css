@@ -2,20 +2,16 @@
 @value makerWhite from '../../common/colors.css';
 
 .maker {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   height: 100%;
-  background: makerWhite;
+  display: flex;
+  flex-direction: column;
+  background-color: makerWhite;
 }
 
 .container {
   display: flex;
   flex: 1;
-}
-.maker .header {
-}
-.maker .footer {
 }
 
 @media screen and (max-width: mediaQuery) {
