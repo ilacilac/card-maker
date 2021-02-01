@@ -1,5 +1,5 @@
-import firebase from "firebase";
-import firebaseApp from "./firebase";
+import firebase from 'firebase';
+import firebaseApp from './firebase';
 
 class AuthService {
   login(providerName) {
@@ -12,7 +12,7 @@ class AuthService {
   }
 
   onAuthChange(onUserChanged) {
-    firebase.auth().onAuthStateChanged((user) => {
+    firebase.auth().onAuthStateChanged(user => {
       onUserChanged(user);
     });
   }
